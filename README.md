@@ -6,7 +6,6 @@ Install shortcut:
 
 ```bash
 npx skills add emailcampaignskill
-npx skills add Sequenzy/emailcampaignskill --skill emailcampaignskill
 ```
 
 Raw skill folder: `skills/emailcampaignskill`

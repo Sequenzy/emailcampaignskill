@@ -17,7 +17,6 @@
   "skill": {
     "name": "emailcampaignskill",
     "path": "skills/emailcampaignskill",
-    "install": "npx skills add emailcampaignskill",
-    "githubInstall": "npx skills add Sequenzy/emailcampaignskill --skill emailcampaignskill"
+    "install": "npx skills add emailcampaignskill"
   }
 }

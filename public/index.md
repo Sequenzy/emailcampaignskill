@@ -2,9 +2,9 @@
 
 emailcampaignskill.com
 
-Email Campaign Skill for agents that work on email systems.
+Give every campaign a sharper brief, cleaner QA, and better post-send memory.
 
-A compact skill for campaign briefs, audience logic, creative QA, and post-send analysis, built for Codex, Hermes, OpenClaw, Claude Code, Cowork, Goose, Cursor, Windsurf, and other skill-aware agents. It gives agents intake questions, review gates, QA checks, and handoff formats for production email work.
+A campaign skill for agents preparing briefs, audience logic, creative reviews, launch checks, and retrospectives that teams can reuse.
 
 ## Install
 
@@ -12,16 +12,43 @@ A compact skill for campaign briefs, audience logic, creative QA, and post-send 
 npx skills add emailcampaignskill
 ```
 
-Raw skill folder: `skills/emailcampaignskill`
+## Operating Data
 
-## Use Cases
+- **8**: brief fields
+- **5**: creative QA passes
+- **1**: post-send learning loop
 
-- **Campaign briefs**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Creative review**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Performance retrospectives**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
+## Campaign operating loop
 
-## Guides
+1. Brief
+2. Audience
+3. Creative
+4. Preflight
+5. Retrospective
 
-- [How to Build an Agent-Ready Email Campaign Strategy](/articles/agent-ready-email-strategy/index.md)
-- [The Practical Email Campaign Operations Playbook for AI Agents](/articles/email-operations-playbook/index.md)
-- [Email Campaign Skill Audit Checklist: From Prompt to Production](/articles/email-skill-audit-checklist/index.md)
+## Scenarios
+
+### Campaign briefs
+
+Turn campaign intent into audience, promise, CTA, exclusions, and proof.
+
+### Creative review
+
+Check subject/body alignment, claims, urgency, and mobile readability.
+
+### Performance retrospectives
+
+Convert results into next-test guidance without overclaiming noisy data.
+
+## Operating Proof
+
+- **Best for**: Teams shipping frequent one-off campaigns
+- **Primary artifact**: Launch brief plus creative QA and retrospective frame
+- **Stop condition**: Missing audience proof or unapproved send action
+
+## Agent Resources
+
+- Markdown index: /index.md
+- Skill discovery JSON: /.well-known/skills/index.json
+- Raw SKILL.md: /skills/emailcampaignskill/SKILL.md
+- Articles: /articles/

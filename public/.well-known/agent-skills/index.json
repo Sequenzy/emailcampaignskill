@@ -1,0 +1,13 @@
+{
+  "skills": [
+    {
+      "name": "emailcampaignskill",
+      "title": "Email Campaign Skill",
+      "description": "Email Campaign Skill: campaign briefs, audience logic, creative QA, and post-send analysis.",
+      "install": "npx skills add emailcampaignskill",
+      "skill_url": "https://emailcampaignskill.com/skills/emailcampaignskill/SKILL.md",
+      "markdown_url": "https://emailcampaignskill.com/skill/index.md",
+      "homepage_url": "https://emailcampaignskill.com/"
+    }
+  ]
+}

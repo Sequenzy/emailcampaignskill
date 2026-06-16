@@ -1,0 +1,22 @@
+# Email Campaign Skill
+
+Email Campaign Skill is a skill package for campaign briefs, audience logic, creative QA, and post-send analysis.
+
+Install:
+
+```bash
+npx skills add emailcampaignskill
+```
+
+## Primary agent resources
+
+- Markdown index: https://emailcampaignskill.com/index.md
+- Skill page: https://emailcampaignskill.com/skill/index.md
+- Raw SKILL.md: https://emailcampaignskill.com/skills/emailcampaignskill/SKILL.md
+- Skill discovery JSON: https://emailcampaignskill.com/.well-known/skills/index.json
+
+## Articles
+
+- How to Build an Agent-Ready Email Campaign Strategy: https://emailcampaignskill.com/articles/agent-ready-email-strategy/index.md
+- The Practical Email Campaign Operations Playbook for AI Agents: https://emailcampaignskill.com/articles/email-operations-playbook/index.md
+- Email Campaign Skill Audit Checklist: From Prompt to Production: https://emailcampaignskill.com/articles/email-skill-audit-checklist/index.md

@@ -1,5 +1,5 @@
 {
-  "name": "email-campaign",
+  "name": "emailcampaignskill",
   "version": "0.1.0",
   "private": false,
   "description": "Email Campaign Skill: campaign briefs, audience logic, creative QA, and post-send analysis.",
@@ -12,12 +12,12 @@
     "codex-skill",
     "email",
     "agents",
-    "email-campaign"
+    "emailcampaignskill"
   ],
   "skill": {
-    "name": "email-campaign",
-    "path": "skills/email-campaign",
-    "install": "npx skills add email-campaign",
-    "githubInstall": "npx skills add polnikale/emailcampaignskill --skill email-campaign"
+    "name": "emailcampaignskill",
+    "path": "skills/emailcampaignskill",
+    "install": "npx skills add emailcampaignskill",
+    "githubInstall": "npx skills add polnikale/emailcampaignskill --skill emailcampaignskill"
   }
 }

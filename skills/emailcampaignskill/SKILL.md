@@ -1,5 +1,5 @@
 ---
-name: email-campaign
+name: emailcampaignskill
 description: Use when Codex or another AI agent needs to plan, review, implement, audit, or improve email work focused on campaign briefs, audience logic, creative QA, and post-send analysis. Triggers include requests about Campaign briefs, Creative review, Performance retrospectives, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
 ---
 

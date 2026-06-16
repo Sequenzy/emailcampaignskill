@@ -1,12 +1,12 @@
 # Email Campaign Skill
 
-Static landing page and Codex skill for emailcampaignskill.com.
+Static landing page and agent skill for emailcampaignskill.com. Works with Codex, Hermes, OpenClaw, Claude Code, Cowork, and other skill-aware agents.
 
 Install shortcut:
 
 ```bash
 npx skills add emailcampaignskill
-npx skills add polnikale/emailcampaignskill --skill emailcampaignskill
+npx skills add Sequenzy/emailcampaignskill --skill emailcampaignskill
 ```
 
 Raw skill folder: `skills/emailcampaignskill`

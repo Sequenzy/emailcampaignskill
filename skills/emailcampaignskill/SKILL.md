@@ -1,28 +1,33 @@
 ---
 name: emailcampaignskill
-description: Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or improve email work focused on campaign briefs, audience logic, creative QA, and post-send analysis. Triggers include requests about Campaign briefs, Creative review, Performance retrospectives, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
+description: "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or improve email work focused on campaign briefs, audience logic, creative QA, launch readiness, and post-send analysis. Triggers include requests about campaign briefs, creative review, performance retrospectives, audience QA, launch checklists, and campaign optimization."
 ---
 
 # Email Campaign Skill
 
-Use this skill to turn email work into an agent-safe operating routine. Start by identifying whether the task is analysis, drafting, implementation planning, QA, or production execution. Keep production execution behind explicit human approval.
+Run the campaign as a controlled operation: brief, audience, creative, QA, launch, monitor, learn.
 
-## Workflow
+## When To Use
 
-1. Clarify the email surface: campaign, newsletter, automation, transactional message, template, deliverability issue, or reporting task.
-2. Ask for source material that changes the answer: audience, lifecycle stage, offer, sending platform, segment rules, screenshots or exports, recent metrics, brand voice, compliance constraints, and existing copy.
-3. Produce structured output with these headings when relevant: assumptions, missing inputs, recommendation, draft or implementation notes, QA checks, risk level, and approval needed.
-4. Do not send, import contacts, alter suppression rules, change DNS, or modify production automations without explicit confirmation.
-5. If the task is complex or high risk, read references/operating-checklist.md before finalizing.
+Use this skill for campaign briefs, audience logic, creative QA, launch readiness, and post-send analysis. It is designed for agent workflows where email work must be specific, reviewable, and safe across planning, drafting, implementation, QA, or operational handoff.
+
+## Operating Workflow
+
+1. Start with the campaign brief: objective, audience, offer, send window, success metric, constraints, and approval owner.
+2. Validate audience logic before copy, including inclusions, exclusions, consent, suppression, and expected recipient count.
+3. Review creative for promise match across subject, preview, body, proof, CTA, landing page, and follow-up path.
+4. Prepare launch QA: links, tracking, personalization, rendering, plain-text fallback, footer, and reply handling.
+5. For analysis, compare performance against baseline, segment, source, and hypothesis rather than judging one metric alone.
+6. Return a launch decision or retrospective with next actions and risks.
 
 ## Review Criteria
 
-- The recommendation matches campaign briefs, audience logic, creative QA, and post-send analysis.
-- The audience and permission basis are clear.
-- The message promise, segment, timing, and call to action are consistent.
-- Deliverability, unsubscribe, complaint, and compliance risks are surfaced.
-- Any live-system action is separated from analysis or drafting.
+- The campaign has one primary goal and one primary CTA.
+- Audience eligibility and exclusions are written in operational terms.
+- The creative does not promise more than the landing page delivers.
+- Post-send analysis includes deliverability and list-quality context.
+- Recommendations separate immediate fixes from future tests.
 
 ## Output Pattern
 
-Return concise, executable artifacts: briefs, checklists, diffs, campaign outlines, sequence maps, QA tables, or post-send retrospectives. Prefer concrete next actions over generic best practices.
+Return campaign briefs, audience QA tables, creative reviews, launch checklists, test plans, and post-send retrospectives. Keep recommendations concrete. Separate analysis from live-system actions, and require explicit approval before sending email, importing contacts, changing DNS, altering suppression rules, or editing production automations.

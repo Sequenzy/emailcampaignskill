@@ -7,6 +7,22 @@ description: "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another 
 
 Run the campaign as a controlled operation: brief, audience, creative, QA, launch, monitor, learn.
 
+## Decision Lens
+
+- Primary lens: campaign briefs, audience logic, creative QA, launch readiness, and post-send analysis.
+- Common request signals: campaign briefs, creative review, performance retrospectives, audience QA, launch checklists, and campaign optimization.
+- Default posture: Run the campaign as a controlled operation: brief, audience, creative, QA, launch, monitor, learn.
+- Useful output family: campaign briefs, audience QA tables, creative reviews, launch checklists, test plans, and post-send retrospectives.
+- Production boundary: separate recommendation from execution.
+- Evidence boundary: say which source material supports the recommendation.
+- Review boundary: identify the human owner for risky changes.
+- Data boundary: do not assume missing fields, consent, or suppression state.
+- Platform boundary: describe provider-specific steps in operational language.
+- Measurement boundary: define what success or recovery will look like.
+- Handoff boundary: make the next step clear to another agent.
+- Rollback boundary: name the safest way to undo live-system changes.
+- Escalation boundary: stop when legal, compliance, DNS, or sending authority is unclear.
+
 ## When To Use
 
 Use this skill for campaign briefs, audience logic, creative QA, launch readiness, and post-send analysis. It is designed for agent workflows where email work must be specific, reviewable, and safe across planning, drafting, implementation, QA, or operational handoff.
